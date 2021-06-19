@@ -1,0 +1,114 @@
+*{
+    font-family: Spartan;
+    padding:0;
+    margin: 0;
+   
+}
+body{
+    background-image:
+    url(bg-pattern-top-desktop.svg),
+    url(bg-pattern-bottom-desktop.svg);
+    background-size: 40%;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    display: flex;
+}
+.text h1{
+    margin-left:150px;
+    margin-top: 100px;
+    padding: 0;
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+    word-spacing: 50%;
+    line-height: 50px;
+}
+.text p{
+    margin-left:150px;
+    margin-top: 10px;  
+    color: hsl(300, 43%, 22%);
+    font-weight: lighter;
+    line-height: 25px;
+}
+.rate{
+    display:flex;
+    flex-direction: column;
+    margin-left:150px;
+    margin-top: 100px;
+}
+.box1,.box2,.box3{
+    width:300px;
+    height: 30px;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom:20px;
+    border-radius: 5px;
+    padding:10px;
+}
+.box1,.box2,.box3{
+    display: flex;
+justify-content: space-between;
+}
+.box1 p,.box2 p,.box3 p{
+    font-size: 12px;
+    margin:10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+}
+.box1 .img,.box2 .img,.box3 .img{
+    margin-top:5px;
+    margin-left: 10px; 
+    
+}
+.box2{
+    transform: translateX(30px);
+}
+.box3{
+    transform: translateX(60px);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card1,.card2,.card3{
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 5px;
+    width:300px;
+    height: 200px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.annedesc{
+    display: flex;
+    margin: 10px;
+}
+.annedesc p{
+    margin-left: 30px;
+    margin-top: 10px;
+    color:white;
+}
+.annedesc img{
+    border-radius: 50%;
+    width:40px
+}
+.card1 .text,.card2 .text,.card3 .text {
+font-size: 12px;
+margin-top: 20px;
+margin-left: 25px;
+color: white;
+line-height: 25px;
+}
+.card2{
+    transform:translateY(20px) ;
+}
+.card3{
+    transform:translateY(40px) ;
+}
+.buyer{
+    color:hsl(333, 80%, 67%) ;
+    font-size: 12px;
+    margin-left: 26px;
+}
